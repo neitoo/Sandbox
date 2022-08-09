@@ -1,0 +1,103 @@
+body,p,h1,h2,ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EBEBEB;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 890px;
+    display: flex;
+    margin: 0 auto;
+}
+header{
+   background-color: #F8AA03; 
+}
+#menu{
+    display: flex;
+    min-height:  50px;
+    align-items: center;
+    padding-left: 20px;
+}
+#menu a:link,
+#menu a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+#menu a:hover,
+#menu a.active{
+    text-decoration: underline;
+}
+nav a{
+    margin-right: 20px;
+    font-size: 18px;
+}
+main{
+    box-sizing: border-box;
+    text-align: justify;
+    background-color: #fff;
+    width: 530px;
+    padding: 20px 10px 20px 20px;
+}
+main h1{
+    font-variant: small-caps;
+    font-size: 21px;
+}
+main h2{
+    font-size: 19px;
+    margin-top: 20px;
+}
+main p{
+    margin: 10px 0;
+}
+main p::first-letter{
+    font: 20px "Times New Roman";
+    color: #F8AA03;
+}
+main img{
+    width: 500px;
+    height: 350px;
+    background-size: contain;
+}
+aside{
+    box-sizing: border-box;
+    width: 360px;
+    background-color: #fff;
+    padding: 20px 20px 20px 10px;
+}
+aside>div{
+    margin: 20px 0 0;
+}
+aside h2{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+aside p, aside li{
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+aside ul{
+    list-style-type: none;
+}
+.price{
+    margin-top: 10px;
+    width: 500px;
+}
+.price td,
+.price th{
+    border: 1px solid black;
+    text-align: center;
+}
+.price th{
+    background-color: #EBEBEB;
+}
+footer{
+    color: #fff;
+    display: flex;
+    min-height: 75px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8AA03;
+}

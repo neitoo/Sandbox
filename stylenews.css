@@ -1,0 +1,35 @@
+body{
+    background-image: url("source/bg.png");
+}
+#page{
+    position: fixed;
+    background-color: coral;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+    
+}
+#page h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 40px;
+}
+#content{
+    padding: 40px 20px;
+    margin: 90px auto;
+	width: 600px;
+	text-align: justify;
+	font: 16px,'Times New Roman';
+    border: 2px solid coral;
+}
+#image{
+    top: 120px;
+    width: 43%;
+    height: 40%;
+    padding-left: 20px;
+    float: right;
+    
+}
