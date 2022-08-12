@@ -4,9 +4,12 @@ body{
 }
 .header{
     background-color: #7926c8;
+    background: linear-gradient(to bottom,#9230ee 10%,#7926c8 57%);
 }
+
 body{
     background-color:#6821aa;
+    background: linear-gradient(to left,#6821aa ,#9230ee,#6821aa);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -38,6 +41,8 @@ h1{
 }
 .menu a:hover, .menu a.active{
     background-color: #6520a5;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 }
 #image img{
     width: 100vw;
@@ -55,10 +60,18 @@ main ul{
     padding: 0;
 }
 li{
+    width: 300px;
+    margin: 0 auto;
     padding: 10px 0 10px 0;
+    background-color:#6520a5;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    transition-duration: 1s;
+    transition-property: width;
 }
 li:hover{
-    background-color:#5b1e95;
+    background-color:#6520a5;
+    width: 600px;
     border-left: 2px solid white;
     border-right: 2px solid white;
 }

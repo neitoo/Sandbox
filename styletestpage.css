@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 760px;
+    font: 19px "Times New Roman";
+    box-shadow: inset 0px 0px 20px;
+}
+.input{
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 50px;
+}
+main{
+    width: 1100px;
+    margin: 25px auto;
+    border: 1px solid red;
+    overflow: hidden;
+    
+}
+main{
+    counter-reset: test;
+}
+main p::before{
+    counter-increment: test;
+    content: counter(test) ". ";
+}
+#line{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+fieldset{
+    color: blueviolet;
+    border-radius: 5px;
+    font: 16px Arial;
+}
+input,textarea{
+    margin: 5px 0 0 0 ;
+    font: 15px Arial;
+    border-radius: 5px;
+    
+}
+input:focus,textarea:focus{
+    box-shadow: 2px 2px 8px blueviolet;
+}
+input[type="button"]{
+    margin: 5px 0 0 0 ;
+    font:  bold 15px Arial;
+    border-radius: 5px;
+}
+main p::first-letter{
+    font: 25px;
+    color: red;
+}
+textarea{
+    resize: horizontal;
+    max-width: 600px;
+    max-height: 50px;
+}
